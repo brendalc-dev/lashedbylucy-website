@@ -143,8 +143,7 @@ figcaption {
 }
 
 .lash-process-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
@@ -391,5 +390,29 @@ figcaption {
         padding: 1rem;
         font-size: 0.95rem;
         text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .lash-process-container {
+        width: 90%;
+        max-width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .lash-process-container * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .lash-process-container img {
+        width: 100%;
+        height: auto;
+        display: block;
     }
 }
