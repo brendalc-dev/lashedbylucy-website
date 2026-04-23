@@ -266,47 +266,88 @@ figcaption {
 .contact-form input[type="submit"]:hover {
     background-color: #b15b76;
 }
-
 @media (max-width: 768px) {
-
-    .contact-container {
-        flex-direction: column;
-        align-items: center;
+    body {
+        background-size: cover;
     }
 
-    .form-image-container {
-        flex-direction: column;
-        align-items: center;
+    main {
+        padding: 1rem;
     }
 
-    .contact-image {
-        max-width: 100%;
-    }
-
-    .contact-form {
-        width: 90%;
-    }
-
-    .lash-process-container {
-        flex-direction: column;
-        width: 90%;
-    }
-
-    .lash-process-images {
-        flex-direction: column;
-    }
-
-    .lash-process-images img {
-        width: 100%;
-    }
-
-    .lash-set {
-        width: 95%;
+    header {
+        padding: 1rem 0.5rem;
     }
 
     header nav {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        align-items: center;
+        gap: 8px;
+    }
+
+    header nav a {
+        display: block;
+        margin: 0.25rem 0;
+        font-size: 1rem;
+    }
+
+    .contact-container,
+    .form-image-container,
+    .lash-process-container,
+    .lash-process-images,
+    .image-container,
+    .lash-gal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-container,
+    .form-image-container {
+        gap: 20px;
+    }
+
+    .contact-image,
+    .image-placeholder,
+    .lash-gal-image,
+    .lash-process-images img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .contact-form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    form input,
+    form textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .lash-set,
+    .lash-process-container {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .lash-set img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    footer {
+        padding: 1rem;
+        font-size: 0.95rem;
     }
 }
