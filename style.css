@@ -1,0 +1,268 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fdd0de;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bow.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    background-color: #fdd0de;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header nav a {
+    color: #d16b88;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h3, h2 {
+    color: #d16b88;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ff66b2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background-color: #e55ca5;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    width: auto;
+    background-color: #ff99cc;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background-color: #e55ca5;
+}
+
+footer {
+    text-align: center;
+    background-color: #fdd0de;
+    color: white;
+    padding: 1rem 0;
+}
+
+.image-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.image-placeholder {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.lash-process-image, .image-container {
+    flex: 1;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 1rem;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-top: 5px;
+}
+
+.lash-set {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.lash-set:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.lash-set h2 {
+    color: #d16b88;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.lash-set img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.lash-set p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: black;
+}
+
+.lash-process-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lash-process-container h2 {
+    font-size: 1.2rem;
+    color: #d16b88;
+    width: 100%;
+}
+
+.lash-process-container p, .lash-process-container ol, .lash-process-container ul {
+    font-size: 1rem;
+    color: black;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.lash-process-container ul {
+    margin-top: 20px;
+}
+
+.lash-process-images {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+.lash-process-images img {
+    width: 48%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    margin-top: 20px;
+}
+
+.form-image-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; 
+}
+
+.contact-image {
+    max-width: 600px;
+    height: auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    max-width: 700px;
+    width: 100%;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #d16b88;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #b15b76;
+}
+
+.lash-gal {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+}
+
+.lash-gal-image {
+    width: 18%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.lash-gal-image:hover {
+    transform: scale(1.05);
+}
+
+.contact-form input[type="submit"] {
+    background-color: #d16b88;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #b15b76;
+}
