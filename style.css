@@ -167,6 +167,7 @@ figcaption {
     color: black;
     line-height: 1.6;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .lash-process-container ul {
@@ -269,6 +270,7 @@ figcaption {
 @media (max-width: 768px) {
     body {
         background-size: cover;
+        background-position: center;
     }
 
     main {
@@ -277,6 +279,7 @@ figcaption {
 
     header {
         padding: 1rem 0.5rem;
+        text-align: center;
     }
 
     header nav {
@@ -292,29 +295,83 @@ figcaption {
         font-size: 1rem;
     }
 
-    .contact-container,
-    .form-image-container,
-    .lash-process-container,
-    .lash-process-images,
+    h1, h2, h3 {
+        text-align: center;
+    }
+
     .image-container,
-    .lash-gal {
+    .lash-gal,
+    .lash-process-images,
+    .contact-container,
+    .form-image-container {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 15px;
     }
 
-    .contact-container,
-    .form-image-container {
-        gap: 20px;
-    }
-
-    .contact-image,
     .image-placeholder,
     .lash-gal-image,
-    .lash-process-images img {
+    .lash-process-images img,
+    .contact-image {
         width: 100%;
         max-width: 100%;
         height: auto;
+    }
+
+    .lash-set {
+        width: 95%;
+        max-width: 95%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .lash-set img {
+        width: 100%;
+        height: auto;
+    }
+
+    .lash-process-container {
+        width: 92%;
+        max-width: 92%;
+        margin: 20px auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .lash-process-container h2 {
+        font-size: 1.3rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .lash-process-container p,
+    .lash-process-container ol,
+    .lash-process-container ul,
+    .lash-process-container li {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .lash-process-container ol,
+    .lash-process-container ul {
+        padding-left: 20px;
+        margin-left: 0;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .form-image-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
     }
 
     .contact-form {
@@ -330,24 +387,9 @@ figcaption {
         box-sizing: border-box;
     }
 
-    .lash-set,
-    .lash-process-container {
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-
-    .lash-set img {
-        width: 100%;
-        height: auto;
-    }
-
-    h1, h2, h3 {
-        text-align: center;
-    }
-
     footer {
         padding: 1rem;
         font-size: 0.95rem;
+        text-align: center;
     }
 }
