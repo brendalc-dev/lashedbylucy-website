@@ -7,24 +7,26 @@ body {
 }
 
 header {
-    background-color: #fdd0de;
+    background-color: #f8e2e9;
     color: white;
     text-align: center;
     padding: 1rem;
 }
 
+header nav {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
 header nav a {
-    color: #f9648e;
+    color: #f8e2e9;
     text-decoration: none;
     margin: 0 1rem;
     font-size: .9rem;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
 }
 
 header nav a:hover {
     text-decoration: underline;
-    color: #f9c6d6;
+    color: #c57c93;
 }
 
 main {
