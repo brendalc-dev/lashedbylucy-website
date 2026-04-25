@@ -21,11 +21,12 @@ header nav a {
     color: #d16b88;
     text-decoration: none;
     margin: 0 1rem;
-    font-size: 1.1rem;
+    font-size: .9rem;
 }
 
 header nav a:hover {
     text-decoration: underline;
+    color: #b15b76;
 }
 
 main {
@@ -88,9 +89,10 @@ footer {
     gap: 1rem;
     justify-content: center;
 }
-.logo{
+.logo {
     width: 35%;
     height: auto;
+    box-shadow: none;
 }
 .image-placeholder {
     width: 45%;
