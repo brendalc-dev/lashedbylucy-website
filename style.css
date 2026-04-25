@@ -1,13 +1,9 @@
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
-    background-color: #fdd0de;
+    background-color: #f8e2e9;
     margin: 0;
     padding: 0;
-    background-image: url('images/bow.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 header {
@@ -18,15 +14,17 @@ header {
 }
 
 header nav a {
-    color: #d16b88;
+    color: #f9648e;
     text-decoration: none;
     margin: 0 1rem;
     font-size: .9rem;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 header nav a:hover {
     text-decoration: underline;
-    color: #b15b76;
+    color: #f9c6d6;
 }
 
 main {
@@ -90,12 +88,12 @@ footer {
     justify-content: center;
 }
 .logo {
-    width: 35%;
+    width: 25%;
     height: auto;
     box-shadow: none;
 }
 .image-placeholder {
-    width: 45%;
+    width: 25%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
