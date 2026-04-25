@@ -18,8 +18,8 @@ header nav a {
     text-decoration: none;
     margin: 0 1rem;
     font-size: .9rem;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 header nav a:hover {
